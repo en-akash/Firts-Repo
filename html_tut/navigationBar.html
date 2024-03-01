@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        ul.first {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.second {
+            width: fit-content;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #555;
+        }
+        .second li{
+            text-align: center;
+            border-bottom: 1px solid #555;
+        }
+        .second li:last-child{
+            border-bottom: none;
+        }
+        .second li a {
+            display: block;
+            width: 60px;
+            background-color: #e76e6e;
+            padding: 8px 16px;
+        }
+        .second li a:hover{
+            background-color: #555;
+            color: white;
+        }
+        .second li a.active{
+            background-color: #23b81e;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="first">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+    <h1>vertical navigation bar</h1>
+    <ul class="second">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    
+</body>
+
+</html>

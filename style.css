@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav img{
+    height:60px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    background-color: brown;
+    top: 0;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+nav li{
+    list-style-type: none;
+    
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffcc66;
+
+}
+
+#book{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px ;
+    background-color: #ffcc66;
+    color: white;
+}
+
+main{
+    margin: 150px;
+    
+}
+
+main h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: brown;
+}
+main h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+.student_info{
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: h;
+    
+    
+}
+
+.name{
+    font-weight: bold;
+}
+
+.student_card{
+    align-items: center;
+    height: 350px;
+    
+    
+}
+
+.card_details p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+main img{
+    height: 180px;
+}
+
+footer{
+    background-color: rgb(145, 81, 70);
+}
+.foot{
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+        
+        gap: 30px;
+        padding-top: 160px;
+}
+
+footer li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.foot_title{
+    font-weight: bold;
+    color: yellow;
+}
+
+footer li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+

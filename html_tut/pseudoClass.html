@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator</title>
+    <style>
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: green;
+        }
+        a:hover {
+            color: hotpink;
+        }
+        a:active {
+            color: blue;
+        }
+        a.highlight:hover{
+            color: blue;
+        }
+        .hoverDiv:hover{
+            background-color: blue;
+        }
+        .para{
+            display: none;
+        }
+        .hoverToShow:hover p{
+            display: block;
+        }
+        q:lang(no){
+            quotes: "~" "~";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Anchor Pseudo class</h1>
+    <h2>Styling a link depending on state</h2>
+    <p><a href="default.asp" target="_blank">This is a link</a></p>
+    <h1>HTML pseudo class</h1>
+    <p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+    <h1>hover on div</h1>
+    <div class="hoverDiv">
+        mouse over this.
+    </div>
+    <h1>hover to show </h1>
+    <div class="hoverToShow">Hover to show p element <p class="para">this is paragraph</p>
+    </div>
+    <h1>lang</h1>
+    <p>some text <q lang="no">A quote in a paragraph</q>some text</p>
+
+</body>
+
+</html>

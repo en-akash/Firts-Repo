@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoElement</title>
+    <style>
+        p.firstline::first-line{
+            color: red;
+        }
+        p.firstLetter::first-letter{
+            color: green;
+            font-size: 22px;
+        }
+        p.multiple::first-letter{
+            color: red;
+            font-size: 25px;
+        }
+        p.multiple::first-line{
+            color: blue;
+        }
+        p.before::before{
+            content:url(img_tree.png)
+        }
+        p.after::after{
+            content:url(img_tree.png)
+        }
+        ::marker{
+            color: red;
+        }
+        ::selection{
+            color: yellow;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>First-line pseudo element</h1>
+    <p class="firstline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolore tempore ipsa temporibus tenetur veritatis minima! Quas voluptatum non blanditiis sed explicabo excepturi, nam voluptates cumque beatae. Qui eum magni error voluptate neque dolore saepe molestias numquam at eius? Accusamus sequi consequuntur repellat obcaecati adipisci aliquid nostrum. Facere, architecto animi.</p>
+    <h1>First Letter pseudo element</h1>
+    <p class="firstLetter">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, illum?</p>
+    <h1>multiple pseudo element</h1>
+    <p class="multiple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aliquam ad officia laboriosam totam sed cumque temporibus laudantium deserunt mollitia.</p>
+    <h1>before</h1>
+    <p class="before">Lorem ipsum dolor sit amet.</p>
+    <h1>after</h1>
+    <p class="after">Lorem ipsum dolor sit amet.</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+</body>
+</html>
